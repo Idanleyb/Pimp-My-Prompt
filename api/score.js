@@ -58,6 +58,7 @@ export default async function handler(req, res) {
       .from('results')
       .insert({
         user_id: user.id,
+        email: user.email,
         goal,
         goal_detail: goalDetail,
         context,
