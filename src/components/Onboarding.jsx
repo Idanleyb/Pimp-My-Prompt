@@ -37,7 +37,7 @@ export default function Onboarding() {
           <div>
             <div className="mark">
               <div className="dot"></div>
-              <span style={{ fontFamily: "'IBM Plex Mono',monospace", fontSize: 13, letterSpacing: '.08em' }}>
+              <span style={{ fontWeight: 700, fontSize: 13, letterSpacing: '.08em' }}>
                 PIMP MY PROMPT
               </span>
             </div>
