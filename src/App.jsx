@@ -50,7 +50,7 @@ export default function App() {
 
   if (session === undefined) {
     return (
-      <div style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#0F2340', color: '#8FA1BA' }}>
+      <div style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--lavender)', color: 'var(--gray)' }}>
         Loading…
       </div>
     );
