@@ -25,7 +25,7 @@ export default function ResultView({ result: r }) {
         <div className="dial-wrap">
           <svg width="120" height="120" viewBox="0 0 120 120">
             <circle cx="60" cy="60" r="50" stroke="var(--line)" strokeWidth="10" fill="none" />
-            <circle cx="60" cy="60" r="50" stroke="var(--amber)" strokeWidth="10" fill="none"
+            <circle cx="60" cy="60" r="50" stroke="var(--mint)" strokeWidth="10" fill="none"
               strokeLinecap="round" strokeDasharray={circumference} strokeDashoffset={offset}
               transform="rotate(-90 60 60)" />
             <text x="60" y="58" textAnchor="middle" className="dial-number">{r.overall}</text>
